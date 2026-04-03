@@ -24,61 +24,61 @@ This project performs data analysis on FASTag transaction data to generate insig
 
 
 
-Tools and Technologies
-Python
-Pandas
-NumPy
-Matplotlib
+Tools and Technologies:
+Python,
+Pandas,
+NumPy,
+Matplotlib,
 Jupyter Notebook / Google Colab
 
 
 Analysis Performed :
-Data Exploration
-Dataset shape and structure
-Summary statistics
-Missing value detection
-Transaction Analysis
-Total number of transactions
-Transaction status distribution
-Failed and reversed transaction analysis
-Revenue Analysis
-Total toll revenue
-Revenue by toll plaza
-Vehicle type revenue analysis
-Daily revenue trends
-Traffic Pattern Analysis
-Hour-wise transaction volume
-Identification of peak traffic hours
-Bank Analysis
-Bank-wise transaction count
-Identification of most frequently used bank
-Wallet Balance Validation
-Checking wallet balance consistency
-Detecting incorrect deductions
-Anomaly Detection
+Data Exploration,
+Dataset shape and structure,
+Summary statistics,
+Missing value detection,
+Transaction Analysis,
+Total number of transactions,
+Transaction status distribution,
+Failed and reversed transaction analysis,
+Revenue Analysis,
+Total toll revenue,
+Revenue by toll plaza,
+Vehicle type revenue analysis,
+Daily revenue trends,
+Traffic Pattern Analysis,
+Hour-wise transaction volume,
+Identification of peak traffic hours,
+Bank Analysis,
+Bank-wise transaction count,
+Identification of most frequently used bank,
+Wallet Balance Validation,
+Checking wallet balance consistency,
+Detecting incorrect deductions,
+Anomaly Detection,
 Identifying unusually high-value transactions using statistical thresholds
 
 Key Insights
-Certain toll plazas generate significantly higher revenue.
-Traffic peaks during typical commute hours.
-A majority of transactions are successful, while a small percentage fail or are reversed.
-Some banks process more FASTag transactions than others.
-High-value transactions can be detected using statistical anomaly detection techniques.
+1.Certain toll plazas generate significantly higher revenue.
+2.Traffic peaks during typical commute hours.
+3.A majority of transactions are successful, while a small percentage fail or are reversed.
+4.Some banks process more FASTag transactions than others.
+5.High-value transactions can be detected using statistical anomaly detection techniques.
 
 
 How to Run the Project
-Open the notebook in Jupyter Notebook or Google Colab.
-Upload the dataset file.
-Run all cells in the notebook.
-The notebook will perform data analysis and generate visualizations.
+1.Open the notebook in Jupyter Notebook or Google Colab.
+2.Upload the dataset file.
+3.Run all cells in the notebook.
+4.The notebook will perform data analysis and generate visualizations.
 
 Project Objective
 This project demonstrates data analysis skills using Python, including:
-Data exploration
-Data cleaning
-Aggregation and grouping
-Visualization
-Business insight generation
+1.Data exploration
+2.Data cleaning
+3.Aggregation and grouping
+4.Visualization
+5.Business insight generation
 
 It simulates how a Data Analyst would analyze transaction data in a banking or fintech environment.
 
