@@ -22,29 +22,17 @@ Detect abnormal or high-value transactions
 
 This project performs data analysis on FASTag transaction data to generate insights that support operational and financial decision-making.
 
-Dataset Description
 
-The dataset represents FASTag toll transactions with the following fields:
 
-Column	Description
-txn_id	Unique transaction ID
-vehicle_id	Vehicle registration number
-plaza_id	Toll plaza identifier
-txn_date	Transaction date
-txn_time	Transaction time
-amount	Toll amount charged
-status	Transaction status (SUCCESS / FAILED / REVERSED)
-vehicle_type	Vehicle category (Car / Truck / Bus)
-bank_name	Issuing bank
-balance_before	Wallet balance before transaction
-balance_after	Wallet balance after transaction
 Tools and Technologies
 Python
 Pandas
 NumPy
 Matplotlib
 Jupyter Notebook / Google Colab
-Analysis Performed
+
+
+Analysis Performed :
 Data Exploration
 Dataset shape and structure
 Summary statistics
@@ -69,27 +57,23 @@ Checking wallet balance consistency
 Detecting incorrect deductions
 Anomaly Detection
 Identifying unusually high-value transactions using statistical thresholds
+
 Key Insights
 Certain toll plazas generate significantly higher revenue.
 Traffic peaks during typical commute hours.
 A majority of transactions are successful, while a small percentage fail or are reversed.
 Some banks process more FASTag transactions than others.
 High-value transactions can be detected using statistical anomaly detection techniques.
-Repository Structure
-FASTag-Python-Analysis
-│
-├── fastag_transactions_1000.csv
-├── fastag_analysis.ipynb
-└── README.md
+
+
 How to Run the Project
 Open the notebook in Jupyter Notebook or Google Colab.
 Upload the dataset file.
 Run all cells in the notebook.
 The notebook will perform data analysis and generate visualizations.
+
 Project Objective
-
 This project demonstrates data analysis skills using Python, including:
-
 Data exploration
 Data cleaning
 Aggregation and grouping
