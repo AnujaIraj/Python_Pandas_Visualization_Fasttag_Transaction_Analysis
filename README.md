@@ -14,11 +14,11 @@ Business Problem
 
 FASTag enables automatic toll payments across highways, generating large volumes of transaction data every day. Analyzing this data helps organizations:
 
-Monitor toll revenue
-Identify peak traffic hours
-Detect failed or reversed transactions
-Evaluate toll plaza performance
-Detect abnormal or high-value transactions
+Monitor toll revenue,
+Identify peak traffic hours,
+Detect failed or reversed transactions,
+Evaluate toll plaza performance,
+Detect abnormal or high-value transactions.
 
 This project performs data analysis on FASTag transaction data to generate insights that support operational and financial decision-making.
 
@@ -88,8 +88,8 @@ Data Analytics Portfolio Project
 
 Skills demonstrated:
 
-SQL
-Python
-Data Analysis
-Power BI
-Data Visualization
+1.SQL
+2.Python
+3.Data Analysis
+4.Power BI
+5.Data Visualization
